@@ -404,6 +404,10 @@ body::after {
 
     }
 
+    .win98-window {
+        transform: scale(calc((100vw - 20px) / 720));
+        transform-origin: center;
+    }
 
     .profile {
 
@@ -411,6 +415,18 @@ body::after {
 
         align-items: flex-start;
 
+    }
+
+
+    .buttons {
+        gap: 6px;
+    }
+
+    .ok-btn {
+        flex: 1;
+        min-width: 0;
+        padding: 4px 8px;
+        font-size: 9px;
     }
 
 
