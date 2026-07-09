@@ -1,0 +1,49 @@
+================================================================================
+Restingz Changelogs
+https://taunt.rest
+Version: 1.0.0
+Comment: Ooh this looks pretty cool!
+================================================================================
+
+Release Date: 2026-07-09
+Last Updated: 2026-07-09
+
+Added
+-----
++ Website release
++ Cool boot animation
++ ASCII Banner for Restingz
++ Startup sound ( sounds nice!! )
++ About Me window
++ Discord, GitHub, SoundCloud and VRChat links
++ Link Embed for discord n twitter
+
+Changed
+-------
+* Improved loading animation speed
+* Refined profile information
+* Updated styling
+* Optimized asset loading
+
+Fixed
+-----
+- Fixed startup audio autoplay issues
+- Fixed banner typing animation
+- Fixed mobile viewport scaling
+
+Removed
+-------
+- Removed unused JavaScript
+- Removed development placeholders
+
+Known Issues
+------------
+! Startup sound glitching for some browsers.
+! Mobile layout is still being improved.
+
+Checksums
+---------
+HTML: index.html: SHA256: 875DF192D39D8E1CAAD4E6B4098953419EF63554ABE27C33B80EBF72C72FECC3
+CSS : style.css : SHA256: C408AA9008358C3141C0F1DE7F58AC160A7BAF7B037EE9A458AEEF8826D53F4E
+
+================================================================================
