@@ -400,7 +400,7 @@ body::after {
 
     .window-body {
 
-        padding: 12px;
+        padding: 1px;
 
     }
 
@@ -419,14 +419,14 @@ body::after {
 
 
     .buttons {
-        gap: 6px;
+        gap: 2px;
     }
 
     .ok-btn {
         flex: 1;
         min-width: 0;
-        padding: 4px 8px;
-        font-size: 9px;
+        padding: 6px 8px;
+        font-size: 12px;
     }
 
 
