@@ -1,45 +1,35 @@
 ================================================================================
 Restingz Changelogs
 https://taunt.rest
-Version: 1.0.0
-Comment: Ooh this looks pretty cool!
+Version: 1.0.1
+Comment: Fixed it for you iphone peoples
 ================================================================================
 
 Release Date: 2026-07-09
-Last Updated: 2026-07-09
+Last Updated: 2026-07-10
 
 Added
 -----
-+ Website release
-+ Cool boot animation
-+ ASCII Banner for Restingz
-+ Startup sound ( sounds nice!! )
-+ About Me window
-+ Discord, GitHub, SoundCloud and VRChat links
-+ Link Embed for discord n twitter
++ More CSS (YAYY)
 
 Changed
 -------
-* Improved loading animation speed
-* Refined profile information
-* Updated styling
-* Optimized asset loading
+* Sizing for iphone screens
+* Faster boot animation
+* Tweaked some coloring
 
 Fixed
 -----
-- Fixed startup audio autoplay issues
-- Fixed banner typing animation
-- Fixed mobile viewport scaling
+- Fixed IPhones tweaking lmao
 
 Removed
 -------
-- Removed unused JavaScript
-- Removed development placeholders
+- Unused API Code
+- Random logs
 
 Known Issues
 ------------
-! Startup sound glitching for some browsers.
-! Mobile layout is still being improved.
+
 
 Checksums
 ---------
