@@ -482,6 +482,7 @@ body::after {
 
 #socials .win98-window {
     width: 720px;
+    
     max-width: calc(100vw - 30px);
 }
 
