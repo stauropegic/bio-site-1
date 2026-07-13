@@ -384,7 +384,6 @@ body::after {
 }
 
 
-
 .ok-btn:active {
 
     border-top: 2px solid #404040;
@@ -395,46 +394,117 @@ body::after {
 
 }
 
+.ok-btn:hover {
+    background: #d4d0c8;
+}
+
 @media(max-width:600px) {
 
+    body {
+        overflow: auto;
+    }
 
-    .window-body {
-
-        padding: 1px;
-
+    #terminalWindow {
+        height: 100dvh;
+        padding: 10px;
     }
 
     .win98-window {
-        transform: scale(calc((100vw - 20px) / 720));
-        transform-origin: center;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .window-body {
+        padding: 14px;
+    }
+
+    .title-bar {
+        height: 26px;
+        font-size: 13px;
     }
 
     .profile {
-
         flex-direction: column;
-
         align-items: flex-start;
-
+        gap: 10px;
     }
 
+    .avatar {
+        width: 64px;
+        height: 64px;
+    }
 
     .buttons {
-        gap: 2px;
+        flex-direction: column;
+        gap: 8px;
     }
 
     .ok-btn {
-        flex: 1;
-        min-width: 0;
-        padding: 6px 8px;
-        font-size: 12px;
+        width: 100%;
+        box-sizing: border-box;
     }
-
 
     #ascii-banner {
-
-        font-size: 8px;
-
+        font-size: 7px;
     }
 
+    #socials .win98-window {
+        width: calc(100vw - 20px);
+        max-width: none;
+    }
 
+    #socials .window-body {
+        min-height: 420px;
+        padding: 14px;
+    }
+
+    #socials .social-list {
+        gap: 14px;
+        margin: 20px 0;
+    }
+
+    #socials .social-list .ok-btn {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    #socials .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #socials .buttons .ok-btn {
+        width: 100%;
+    }
+
+}
+
+#socials .win98-window {
+    width: 720px;
+    max-width: calc(100vw - 30px);
+}
+
+#socials .window-body {
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+#socials .social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+#socials .social-list .ok-btn {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    text-align: center;
+}
+
+#socials .buttons {
+    margin-top: auto;
 }
