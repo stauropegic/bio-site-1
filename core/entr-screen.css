@@ -1,0 +1,35 @@
+#enter {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: black;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+#site {
+    display: none;
+}
+
+#enter.disintegrate {
+    animation: disintegrate 1.5s forwards;
+}
+
+@keyframes disintegrate {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.15);
+        filter: blur(20px);
+    }
+}

@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Space Mono";
+    src: url("../font/SpaceMono-Regular.ttf") format("truetype");
+}
+
+html,
+body,
+#root {
+    background-color: black !important;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: white;
+    font-family: "Space Mono", monospace;
+}
+
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.bio {
+    width: min(650px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.role {
+    margin: 15px 0 4px;
+    color: #aaa;
+}
+
+.location {
+    margin: 0;
+    color: #666;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.socials a {
+    color: #888;
+    text-decoration: none;
+    transition: color .2s ease, transform .2s ease;
+}
+
+.socials a:hover {
+    color: white;
+    transform: translateY(-2px);
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #222;
+    margin: 60px 0;
+}
+
+section h2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    text-transform: lowercase;
+    margin-bottom: 20px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 12px;
+    padding: 20px;
+    border: 1px solid #222;
+
+    color: white;
+    text-decoration: none;
+
+    transition: border-color .2s ease,
+                transform .2s ease,
+                background .2s ease;
+}
+
+.project:hover {
+    border-color: #555;
+    background: #080808;
+    transform: translateY(-3px);
+}
+
+.project p {
+    margin: 8px 0 0;
+    color: #666;
+}
+
+.project span {
+    color: #555;
+}
+
+.about p {
+    color: #aaa;
+    line-height: 1.8;
+    max-width: 500px;
+}
+
+
+
+/* Yeerrrr navbar from Rest */
+.navbar {
+    height: 80px;
+    padding: 0 8%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: var(--orange);
+    text-decoration: none;
+
+}
+.logo:hover{
+    text-shadow: 2px 2px 4px var(--orange);
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.links a {
+    color: #aaa;
+    text-decoration: none;
+}
+.links a:hover {
+    color: var(--orange);
+    text-shadow: 2px 2px 4px var(--orange);
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+}
